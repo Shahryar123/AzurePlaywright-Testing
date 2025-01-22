@@ -11,9 +11,9 @@ Effortlessly fetch and manage Azure resource details using the Azure SDK for Nod
 - An active Azure subscription.
 - Azure CLI installed. Download Azure CLI.
 
-- Install Azure SDK dependencies:
+# Install Azure SDK dependencies:
     - npm install @azure/identity @azure/arm-resources.
-- Set up Azure authentication:
+# Set up Azure authentication:
     - az login.
 
 ## 🌟 Execution
