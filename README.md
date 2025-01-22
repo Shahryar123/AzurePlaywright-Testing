@@ -27,8 +27,8 @@ Effortlessly fetch and manage Azure resource details using the Azure SDK for Nod
     - npx playwright test --headed (Includes GUI)
 
 ## 📋 Summary of Key Commands (Playwright):
-- Run tests: 
-    npx playwright test
+Run tests: 
+- npx playwright test
 - Run tests in headed mode: 
     npx playwright test --headed
 - Run a specific test file: 
