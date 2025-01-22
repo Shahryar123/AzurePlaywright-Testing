@@ -11,9 +11,10 @@ Effortlessly fetch and manage Azure resource details using the Azure SDK for Nod
 - An active Azure subscription.
 - Azure CLI installed. Download Azure CLI.
 
-- Install Azure SDK dependencies:
+### Install Azure SDK dependencies:
     - npm install @azure/identity @azure/arm-resources.
-- Set up Azure authentication:
+
+### Set up Azure authentication:
     - az login.
 
 ## 🌟 Execution
@@ -27,23 +28,13 @@ Effortlessly fetch and manage Azure resource details using the Azure SDK for Nod
     - npx playwright test --headed (Includes GUI)
 
 ## 📋 Summary of Key Commands (Playwright):
-Run tests: 
-- npx playwright test
-- Run tests in headed mode: 
-    npx playwright test --headed
-- Run a specific test file: 
-    npx playwright test path/to/test-file.spec.js
-- Generate test code using Playwright Inspector: 
-    npx playwright codegen https://example.com
-- Install browsers: 
-    npx playwright install
-- Enable video recording: 
-    npx playwright test --video=on
-- Run tests in parallel: 
-    npx playwright test --workers=4
-- Run with trace: 
-    npx playwright test --trace on
-- List test projects: 
-    npx playwright list-projects
-- Show the test report: 
-    npx playwright show-report
+    - npx playwright test (Run tests)
+    - npx playwright test --headed (Run tests in headed mode)
+    - npx playwright test path/to/test-file.spec.js (Run a specific test file)
+    - npx playwright codegen https://example.com (Generate test code using Playwright Inspector)
+    - npx playwright install (Install browsers)
+    - npx playwright test --video=on (Enable video recording)
+    - npx playwright test --workers=4 (Run tests in parallel)
+    - npx playwright test --trace on (Run with trace)
+    - npx playwright list-projects (List test projects)
+    - npx playwright show-report (Show the test report)
